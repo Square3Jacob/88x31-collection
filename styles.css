@@ -13,12 +13,6 @@ body {
     display: flex;
 }
 
-.images {
-    height: 2000px;
-    padding-left: 4px;
-    padding-right: 4px;
-}
-
 .outer-link {
     position: sticky;
     top: 40%;
@@ -43,7 +37,6 @@ body {
 
 h2 {
     color: #7b2b2b;
-    text-shadow: #7b2b2b;
 }
 
 .top {
@@ -58,8 +51,9 @@ h2 {
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 8px;
-
-    box-shadow: black;
+    height: 2000px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .image {
